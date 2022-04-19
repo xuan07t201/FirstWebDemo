@@ -13,22 +13,36 @@
         }
         header {
             background: black;
-            padding: 20%;
+            padding: 20px;
         }
         section {
             background: white;
             padding: 20px;
-            color: aqua
+            color: aqua;
+            display: flex;
+            flex-direction: row;
         }
         footer {
             background: black;
             padding: 10px 20px;
         }
+        div {
+            background: red;
+            width: 100px;
+            margin: auto;
+        }
+        #b {
+            background: violet;
+        }
     </style>
 </head>
 <body>
     <header>header</header>
-    <section>triple-section</section>
+    <section>
+        <div>abc</div>
+        <div id="b">b</div>
+        <div>c</div>
+    </section>
     <section>second-section</section>
     <footer>footer</footer>
 </body>
