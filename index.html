@@ -31,16 +31,30 @@
             width: 100px;
             margin: auto;
         }
-        #b {
-            background: violet;
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        li {
+            display: inline-block;
+            margin-right: 20px;
         }
     </style>
 </head>
 <body>
-    <header>header</header>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Location</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
     <section>
-        <div>abc</div>
-        <div id="b">b</div>
+        <div>a</div>
+        <div>b</div>
         <div>c</div>
     </section>
     <section>second-section</section>
