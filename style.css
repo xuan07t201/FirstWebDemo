@@ -1,0 +1,34 @@
+body {
+    color: white;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: black;
+    padding: 20px;
+    height: 100px;
+    text-align: center;
+}
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    margin: 20px;   
+    display: inline-block; 
+}
+header .logo a {
+    background: red;    
+    display: inline-block;
+    text-indent: -99999999px;
+    width: 300px;
+    height: 80px;
+}
