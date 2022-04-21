@@ -1,3 +1,9 @@
 zoom 100% : 1px trong code = 1px tren screen
 zoom 50% : 20px trong code = 10px tren screen 
 
+root directory là base url
+
+Css selector
+    - space: section div : div inside section
+    - colon: section div, a : .... a in all page 
+    - .: have class
